@@ -10,6 +10,8 @@ gem 'jbuilder'
 
 group :test do
   gem 'rspec'
+  gem 'selenium-webdriver', '2.35.1'
+  gem 'capybara', '1.1.2'
 end
 
 group :development do
@@ -19,3 +21,10 @@ end
 group :production do
 	gem 'rails_12factor'
 end
+
+group :doc do
+  gem 'sdoc', '0.3.20', require: false
+end
+
+
+
