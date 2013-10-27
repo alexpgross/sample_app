@@ -7,6 +7,7 @@ gem 'coffee-rails'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder'
+gem 'bootstrap-sass'
 
 group :test do
   gem 'rspec'
