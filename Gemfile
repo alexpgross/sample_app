@@ -8,7 +8,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder'
 gem 'bootstrap-sass'
-#gem 'protected_attributes'
+
 
 group :test do
   gem 'rspec'
@@ -18,6 +18,8 @@ end
 
 group :development do
 	gem 'rspec-rails'
+	gem 'better_errors'
+	gem "binding_of_caller"
 end
 
 group :production do
