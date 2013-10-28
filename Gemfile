@@ -8,7 +8,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder'
 gem 'bootstrap-sass'
-gem 'protected_attributes'
+#gem 'protected_attributes'
 
 group :test do
   gem 'rspec'
